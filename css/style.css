@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--pt-sans);
+}
+
+:root{
+    --yellow-color:#fcdb00;
+    --black-color:#f1f1f1;
+    --pt-sans:: 'PT Sans', sans-serif;
+}
+h1{
+    font-weight: 700;
+    font-size: 32px;
+}
+h3{
+    font-weight: 400;
+    font-size: 22px;
+}
+h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* hero section */
+.hero{
+    width: 100%;
+    height: fit-content;
+    background: var(--yellow-color);
+    padding-bottom: 60px;
+}
+.hero .nav-item .nav-link{
+    font-size: 22px;
+    color: #010101;
+    font-weight: 700;
+    
+}
+.hero h1{
+    color:#010101;
+    padding-top: 85px;
+}
+.hero h4{
+    font-size: 20px;
+    color: #313841;
+    padding: 8px 0;
+}
+.hero p{
+    color: #555555;
+}
+.icons{
+    padding: 20px 0;
+}
+.fa-brands{
+    font-size: 50px;
+    color: #010101;
+    margin-right: 30px;
+}
+
+/* features section */
+.features{
+    padding: 65px 0 90px 0;
+    background: #ffffff;
+}
+.features h3{
+    color: #010101;
+    padding: 0 20px;
+}
+.features p{
+    color: #898989;
+    padding: 0 20px;
+}
+hr.hr1{
+    border: 1px solid #313741;
+}
+
+/* footer section */
+.footer{
+    padding: 50px 0 75px 0;
+    background: #010101;
+}
+.footer h1{
+    color: var(--yellow-color);
+}
+.footer h4{
+    color:#898989;
+    padding-bottom: 20px;
+}
+.inline-form {
+    display: flex;
+    align-items: center;
+  }
+.form-group1{
+    flex-basis: 465px;
+}
+  .form-group1 input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-family: var(--pt-sans);
+  }
+.form-group2 button{
+    padding: 11px 20px;
+    border: none;
+    background: var(--yellow-color);
+    font-size: 16px;
+    font-weight: 700;
+    color: #010101;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.footer p{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 0 ;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+hr.hr2{
+    border:1px solid #ffffff;
+}
